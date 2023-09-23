@@ -2,9 +2,9 @@
 
 node {
 
-    def SF_CONSUMER_KEY=env.SF_CONSUMER_KEY
-    def SF_USERNAME=env.SF_USERNAME
-    def SERVER_KEY_CREDENTIALS_ID=env.SERVER_KEY_CREDENTIALS_ID
+    def SF_CONSUMER_KEY='3MVG95mg0lk4batijllCtUduqu7iCWnC_bQUwqCeUmpRJzrSSnnVsEfacPr48wwjBenoErvLhCADVML3hlmEw'
+    def SF_USERNAME='lavanya.e93-tgcl@force.com'
+    def SERVER_KEY_CREDENTIALS_ID='03062dfd-a153-427f-b0d8-b6517729edc5'
     def DEPLOYDIR='src'
     def TEST_LEVEL='RunLocalTests'
     def SF_INSTANCE_URL = env.SF_INSTANCE_URL ?: "https://test.salesforce.com"
