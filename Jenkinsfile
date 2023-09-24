@@ -2,12 +2,12 @@
 
 node {
 
-    def SF_CONSUMER_KEY='3MVG95mg0lk4batijllCtUduqu7iCWnC_bQUwqCeUmpRJzrSSnnVsEfacPr48wwjBenoErvLhCADVML3hlmEw'
-    def SF_USERNAME='lavanya.e93-tgcl@force.com'
-    def SERVER_KEY_CREDENTIALS_ID='03062dfd-a153-427f-b0d8-b6517729edc5'
+    def SF_CONSUMER_KEY='3MVG9fe4g9fhX0E63S_hoLkQHfhJ68hm64HDuCFslkgo5RzLm1JrjszcjuIINLeh.De3NKA14W6kMH06KNsAX'
+    def SF_USERNAME='lavanya.erukulapati@minfytech.sandbox'
+    def SERVER_KEY_CREDENTIALS_ID='ffb9836e-1224-46d8-bed9-d44592acf821'
     def DEPLOYDIR='src'
     def TEST_LEVEL='RunLocalTests'
-    def SF_INSTANCE_URL = env.SF_INSTANCE_URL ?: "https://test.salesforce.com"
+    def SF_INSTANCE_URL='https://minfytech3-dev-ed.develop.my.salesforce.com'
 
 
     //def toolbelt = tool 'toolbelt'
